@@ -4,23 +4,45 @@ body{
   
 }
 :root{
-  --text-size: 12px;
-  font-size: 14px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: grey;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 a{
-    color: inherit;text-decoration: none;
+    color: green;text-decoration: none;
 
 }
 .format-text{
   text-transform: capitalize;
 }
 section{
-  width: 300px;
+  max-width: 350px;
+
   border: 1px solid grey;
   border-radius: 1%;
   margin-top: auto;
+
   background-color: rgb(228, 222, 222);
   text-align: center;
-
+}
+.header{
+  padding: 5% 0;
+  font-size: 2em;
+  color: rgb(70, 69, 69);
+}
+.header::before, .header::after{
+content: "_______" ;
+color: grey;
+}
+.header::before{
+  position:relative; 
+  bottom: 10px; left: -5px;
+}
+.header::after{
+  position:relative; 
+  bottom: 10px;left: 5px;
+}
+.header-intruction{
+  padding-bottom: 10%;
 }
