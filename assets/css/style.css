@@ -8,6 +8,7 @@ body{
   color: grey;
   font-size: 11px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
   
 }
 a{
@@ -49,14 +50,28 @@ color: grey;
 .header-intruction{
   padding-bottom: 10%;
 }
-form{
+/* form{
   display: block;
-}
-.cell{
+} */
+.cell, .btn{
   min-width: calc(2.25*var(--width-cell)); 
   padding: 3%;
   margin-bottom: 5%;
 }
 .user-name>*{
   min-width: var(--width-cell);
+}
+
+.btn{
+  margin-top: 5%;
+  border: 1px solid green;
+  border-radius: 1%;
+  background-color: green;
+  color: white;
+
+}
+.messege{
+  padding: 3%;
+  color: white;
+
 }
